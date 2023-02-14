@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="dist/eTicket.jar"/>
+	<classpathentry kind="lib" path="dist/lib/mysql-connector-java-5.1.47-bin.jar"/>
+	<classpathentry kind="lib" path="dist/run1356918128/eTicket.jar"/>
+	<classpathentry kind="lib" path="dist/run1356918128/lib/mysql-connector-java-5.1.47-bin.jar"/>
+	<classpathentry kind="lib" path="dist/run686232253/eTicket.jar"/>
+	<classpathentry kind="lib" path="dist/run686232253/lib/mysql-connector-java-5.1.47-bin.jar"/>
+	<classpathentry kind="lib" path="dist/run71470341/eTicket.jar"/>
+	<classpathentry kind="lib" path="dist/run71470341/lib/mysql-connector-java-5.1.47-bin.jar"/>
+	<classpathentry kind="lib" path="dist/run834857148/eTicket.jar"/>
+	<classpathentry kind="lib" path="dist/run834857148/lib/mysql-connector-java-5.1.47-bin.jar"/>
+	<classpathentry kind="lib" path="dist/run929406493/eTicket.jar"/>
+	<classpathentry kind="lib" path="dist/run929406493/lib/mysql-connector-java-5.1.47-bin.jar"/>
+	<classpathentry kind="lib" path="dist/run985063151/eTicket.jar"/>
+	<classpathentry kind="lib" path="dist/run985063151/lib/mysql-connector-java-5.1.47-bin.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

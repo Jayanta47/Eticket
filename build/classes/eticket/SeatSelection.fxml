@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="pane" prefHeight="535.0" prefWidth="736.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="eticket.SeatSelectionController">
+   <children>
+      <VBox alignment="TOP_CENTER" prefHeight="550.0" prefWidth="342.0" spacing="20.0">
+         <children>
+            <Label text="Select Seat (Max 4)">
+               <font>
+                  <Font size="25.0" />
+               </font>
+            </Label>
+            <GridPane alignment="CENTER" prefHeight="446.0" prefWidth="367.0">
+               <columnConstraints>
+                  <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                  <ColumnConstraints halignment="LEFT" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+               </columnConstraints>
+               <rowConstraints>
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+               </rowConstraints>
+               <padding>
+                  <Insets left="10.0" right="10.0" />
+               </padding>
+               <children>
+                  <Button fx:id="A1" contentDisplay="CENTER" mnemonicParsing="false" onAction="#selectSeatOnAction" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: limegreen;" text="A1" />
+                  <Button fx:id="A2" contentDisplay="CENTER" mnemonicParsing="false" onAction="#selectSeatOnAction" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: limegreen;" text="A2" GridPane.columnIndex="1" />
+                  <Button fx:id="A3" contentDisplay="CENTER" mnemonicParsing="false" onAction="#selectSeatOnAction" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: limegreen;" text="A3" GridPane.columnIndex="2" />
+                  <Button fx:id="A4" contentDisplay="CENTER" mnemonicParsing="false" onAction="#selectSeatOnAction" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: limegreen;" text="A4" GridPane.columnIndex="3" />
+                  <Button fx:id="B1" contentDisplay="CENTER" mnemonicParsing="false" onAction="#selectSeatOnAction" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: limegreen;" text="B1" GridPane.rowIndex="1" />
+                  <Button fx:id="B2" contentDisplay="CENTER" mnemonicParsing="false" onAction="#selectSeatOnAction" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: limegreen;" text="B2" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <Button fx:id="B3" contentDisplay="CENTER" mnemonicParsing="false" onAction="#selectSeatOnAction" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: limegreen;" text="B3" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+                  <Button fx:id="B4" contentDisplay="CENTER" mnemonicParsing="false" onAction="#selectSeatOnAction" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: limegreen;" text="B4" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+                  <Button fx:id="C1" contentDisplay="CENTER" mnemonicParsing="false" onAction="#selectSeatOnAction" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: limegreen;" text="C1" GridPane.rowIndex="2" />
+                  <Button fx:id="C2" contentDisplay="CENTER" mnemonicParsing="false" onAction="#selectSeatOnAction" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: limegreen;" text="C2" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <Button fx:id="C3" contentDisplay="CENTER" mnemonicParsing="false" onAction="#selectSeatOnAction" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: limegreen;" text="C3" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                  <Button fx:id="C4" contentDisplay="CENTER" mnemonicParsing="false" onAction="#selectSeatOnAction" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: limegreen;" text="C4" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+                  <Button fx:id="D1" contentDisplay="CENTER" mnemonicParsing="false" onAction="#selectSeatOnAction" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: limegreen;" text="D1" GridPane.rowIndex="3" />
+                  <Button fx:id="D2" contentDisplay="CENTER" mnemonicParsing="false" onAction="#selectSeatOnAction" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: limegreen;" text="D2" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                  <Button fx:id="D3" contentDisplay="CENTER" mnemonicParsing="false" onAction="#selectSeatOnAction" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: limegreen;" text="D3" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                  <Button fx:id="D4" contentDisplay="CENTER" mnemonicParsing="false" onAction="#selectSeatOnAction" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: limegreen;" text="D4" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+                  <Button fx:id="E1" contentDisplay="CENTER" mnemonicParsing="false" onAction="#selectSeatOnAction" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: limegreen;" text="E1" GridPane.rowIndex="4" />
+                  <Button fx:id="E2" contentDisplay="CENTER" mnemonicParsing="false" onAction="#selectSeatOnAction" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: limegreen;" text="E2" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                  <Button fx:id="E3" contentDisplay="CENTER" mnemonicParsing="false" onAction="#selectSeatOnAction" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: limegreen;" text="E3" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+                  <Button fx:id="E4" contentDisplay="CENTER" mnemonicParsing="false" onAction="#selectSeatOnAction" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: limegreen;" text="E4" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+                  <Button fx:id="F1" contentDisplay="CENTER" mnemonicParsing="false" onAction="#selectSeatOnAction" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: limegreen;" text="F1" GridPane.rowIndex="5" />
+                  <Button fx:id="F2" contentDisplay="CENTER" mnemonicParsing="false" onAction="#selectSeatOnAction" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: limegreen;" text="F2" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                  <Button fx:id="F3" contentDisplay="CENTER" mnemonicParsing="false" onAction="#selectSeatOnAction" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: limegreen;" text="F3" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+                  <Button fx:id="F4" contentDisplay="CENTER" mnemonicParsing="false" onAction="#selectSeatOnAction" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: limegreen;" text="F4" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+                  <Button fx:id="G1" contentDisplay="CENTER" mnemonicParsing="false" onAction="#selectSeatOnAction" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: limegreen;" text="G1" GridPane.rowIndex="6" />
+                  <Button fx:id="G2" contentDisplay="CENTER" mnemonicParsing="false" onAction="#selectSeatOnAction" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: limegreen;" text="G2" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                  <Button fx:id="G3" contentDisplay="CENTER" mnemonicParsing="false" onAction="#selectSeatOnAction" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: limegreen;" text="G3" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+                  <Button fx:id="G4" contentDisplay="CENTER" mnemonicParsing="false" onAction="#selectSeatOnAction" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: limegreen;" text="G4" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+                  <Button fx:id="H1" contentDisplay="CENTER" mnemonicParsing="false" onAction="#selectSeatOnAction" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: limegreen;" text="H1" GridPane.rowIndex="7" />
+                  <Button fx:id="H2" contentDisplay="CENTER" mnemonicParsing="false" onAction="#selectSeatOnAction" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: limegreen;" text="H2" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                  <Button fx:id="H3" contentDisplay="CENTER" mnemonicParsing="false" onAction="#selectSeatOnAction" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: limegreen;" text="H3" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+                  <Button fx:id="H4" contentDisplay="CENTER" mnemonicParsing="false" onAction="#selectSeatOnAction" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: limegreen;" text="H4" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+                  <Button fx:id="I1" contentDisplay="CENTER" mnemonicParsing="false" onAction="#selectSeatOnAction" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: limegreen;" text="I1" GridPane.rowIndex="8" />
+                  <Button fx:id="I2" contentDisplay="CENTER" mnemonicParsing="false" onAction="#selectSeatOnAction" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: limegreen;" text="I2" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+                  <Button fx:id="I3" contentDisplay="CENTER" mnemonicParsing="false" onAction="#selectSeatOnAction" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: limegreen;" text="I3" GridPane.columnIndex="2" GridPane.rowIndex="8" />
+                  <Button fx:id="I4" contentDisplay="CENTER" mnemonicParsing="false" onAction="#selectSeatOnAction" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: limegreen;" text="I4" GridPane.columnIndex="3" GridPane.rowIndex="8" />
+                  <Button fx:id="J1" contentDisplay="CENTER" mnemonicParsing="false" onAction="#selectSeatOnAction" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: limegreen;" text="J1" GridPane.rowIndex="9" />
+                  <Button fx:id="J2" contentDisplay="CENTER" mnemonicParsing="false" onAction="#selectSeatOnAction" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: limegreen;" text="J2" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+                  <Button fx:id="J3" contentDisplay="CENTER" mnemonicParsing="false" onAction="#selectSeatOnAction" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: limegreen;" text="J3" GridPane.columnIndex="2" GridPane.rowIndex="9" />
+                  <Button fx:id="J4" contentDisplay="CENTER" mnemonicParsing="false" onAction="#selectSeatOnAction" prefHeight="30.0" prefWidth="40.0" style="-fx-background-color: limegreen;" text="J4" GridPane.columnIndex="3" GridPane.rowIndex="9" />
+               </children>
+            </GridPane>
+         </children>
+         <padding>
+            <Insets left="10.0" top="30.0" />
+         </padding>
+      </VBox>
+      <Label layoutX="378.0" layoutY="87.0" prefHeight="37.0" prefWidth="124.0" text="Selected Bus">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="380.0" layoutY="154.0" text="Selected Seats">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="380.0" layoutY="221.0" text="Number of Seats">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="380.0" layoutY="283.0" text="Fare per Seat">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="380.0" layoutY="346.0" text="Total" textFill="#e31019">
+         <font>
+            <Font name="Broadway" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="selectedBusName" layoutX="569.0" layoutY="88.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="selectedSeats" layoutX="569.0" layoutY="151.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="numberOfSeats" layoutX="569.0" layoutY="218.0" text="0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="farePerSeat" layoutX="569.0" layoutY="280.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="totalFare" layoutX="569.0" layoutY="343.0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Button layoutX="399.0" layoutY="389.0" mnemonicParsing="false" onAction="#purchaseNowOnAction" text="Purchase Now" />
+      <Button layoutX="540.0" layoutY="389.0" mnemonicParsing="false" onAction="#purchaseLaterOnAction" text="Purchase Later" />
+      <Label layoutX="544.0" layoutY="86.0" text=":">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="544.0" layoutY="151.0" text=":">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="544.0" layoutY="280.0" text=":">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="544.0" layoutY="218.0" text=":">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="544.0" layoutY="343.0" text=":">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#40dd5a" height="21.0" layoutX="392.0" layoutY="469.0" stroke="BLACK" strokeType="INSIDE" width="40.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0057ff" height="21.0" layoutX="392.0" layoutY="495.0" stroke="BLACK" strokeType="INSIDE" width="40.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff00f246" height="21.0" layoutX="392.0" layoutY="521.0" stroke="BLACK" strokeType="INSIDE" width="40.0" />
+      <Label layoutX="452.0" layoutY="469.0" text="Available Seats" textFill="#31d760" />
+      <Label layoutX="453.0" layoutY="521.0" text="Temporary booked by another user" textFill="#ff00dd" />
+      <Label layoutX="452.0" layoutY="495.0" text="Selected seats by you" textFill="#4c03f5" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e5ff008b" height="21.0" layoutX="392.0" layoutY="440.0" stroke="BLACK" strokeType="INSIDE" width="40.0" />
+      <Label layoutX="452.0" layoutY="440.0" text="Permanently booked seats" textFill="#ff9400" />
+   </children>
+</AnchorPane>
